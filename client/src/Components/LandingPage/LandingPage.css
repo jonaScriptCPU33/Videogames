@@ -1,0 +1,58 @@
+.container {
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+
+.container h1 {
+  background-color: #050505c9;
+  color: rgb(255, 250, 250);
+  text-align: right;
+  padding: 0 10px;
+  border-radius: 50px;
+  box-shadow: 15px 1px 40px rgb(253, 251, 253),
+    -15px -1px 20px rgb(173, 171, 173);
+  animation: moverizquierda 3s ease-in;
+}
+
+.btn {
+  padding: 10px 10px;
+  font-size: 1.5em;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: rgb(2, 2, 2);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: ease all 0.5s;
+  animation: moverderecha 3s ease-in;
+  margin-top: 170px;
+  
+}
+
+.btn:hover {
+  background-color: rgb(129, 149, 206);
+  transition: ease all 0.5s;
+}
+
+@keyframes moverizquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moverderecha {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

@@ -1,0 +1,61 @@
+.container-Principal {
+  border: 2px solid white;
+  margin: auto;
+  
+}
+
+.container-Principal .card-grande {
+  border: 2px solid white;
+  margin: 200px;
+  background-color:#050505c9 ;
+}
+
+.container-Principal .card-grande h1{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.container-Principal .card-grande h2{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container-Principal .card-grande h6{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container-Principal .card-grande h3{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.container-Principal .card-grande h4{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.container-Principal .card-grande p{
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container-Principal button{
+    padding: 7px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 15px 1px 40px rgb(149, 107, 59),
+    -15px -1px 30px rgb(179, 31, 80);
+    margin-bottom: 150px;
+}
+
+.container-Principal button:hover{
+    background-color: rgb(149, 107, 59) ;
+}

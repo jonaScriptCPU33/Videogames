@@ -1,0 +1,36 @@
+.tarjetas{
+  background-color: #050505c9;
+}
+
+.Container-tarjetas .tarjetas{
+  margin: 30px;
+  padding: 10px;
+  
+}
+
+
+.Container-tarjetas .tarjetas:hover {
+  background-color: rgba(202, 12, 69, 0.767);
+  margin: 10px;
+  padding: 40px;
+}
+
+
+.tarjetas h4 {
+  color: blanchedalmond;
+  font-size: 20px;
+}
+
+.tarjetas h6 {
+  color: blanchedalmond;
+  font-size: 15px;
+}
+
+.tarjeta img {
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+
+.tarjetas h3 {
+  color: blanchedalmond;
+}

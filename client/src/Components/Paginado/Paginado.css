@@ -1,0 +1,16 @@
+nav .paginado button {
+  padding: 10px;
+  border: 1px solid rgb(139, 123, 123);
+  border-radius: 8px;
+  background-color: #050505c9;
+  color: white;
+}
+
+nav .paginado button:hover {
+  background-color: rgb(179, 31, 80);
+}
+
+nav .paginado {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-div h1 {
+  color: white;
+  box-sizing: border-box;
+}
+.formulario {
+  background-color: #050505c9;
+  border: 2px solid rgb(240, 237, 237);
+  padding: 30px;
+  margin: 50px;
+}
+.formulario div-genero {
+  margin-top: 50px;
+}
+
+.formulario p {
+  color: rgb(245, 17, 17);
+}
+
+.formulario select {
+  width: 180px;
+}
+
+.formulario label {
+  color: white;
+}
+
+.formulario div {
+  margin-top: 10px;
+}
+
+.container-div div {
+  color: white;
+}
+
+.formulario .create {
+  margin-top: 30px;
+}
+
+.formulario .divGen {
+  margin-top: 60px;
+}
+.formulario input {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.container-div {
+  border: solid 3px white;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.container-div .divGen {
+  background-color: #050505c9;
+  border: solid 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.container-div .divGen button {
+  margin-left: 250px;
+  margin-top: 5px;
+  width: 30px;
+}
+.container-div .divGen p {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container-div .divPlat {
+  background-color: #050505c9;
+  border: solid 2px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.container-div .divPlat button {
+  margin-left: 250px;
+  margin-top: 5px;
+  width: 30px;
+}
+.container-div .divPlat p {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container-div .btn-Volver {
+  background-color: black;
+  padding: 10px 10px;
+  margin-top: 25px;
+  border: none;
+  font-size: 1em;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 15px 1px 40px rgb(253, 251, 253),
+    -15px -1px 20px rgb(173, 171, 173);
+}
+.container-div .btn-Volver:hover {
+  background-color: orangered;
+  transition: ease all 0.5s;
+}
+
+.container-div .crear {
+  background-color: black;
+  padding: 10px 10px;
+  margin-top: 25px;
+  border: none;
+  font-size: 1em;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 15px 1px 40px rgb(253, 251, 253),
+    -15px -1px 20px rgb(173, 171, 173);
+}
+.container-div .crear:hover {
+  background-color: orangered;
+  transition: ease all 0.5s;
+}

@@ -1,0 +1,113 @@
+.container .btn-crgVD {
+  padding: 10px 10px;
+  font-size: 1em;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 30px;
+  margin-right: 620px;
+  margin-left: 620px;
+  background-color: rgb(2, 2, 2);
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  /*   border: solid 2px 2px 2px 2px black; */
+  box-shadow: 10px 1px 10px rgb(149, 107, 59),
+    -10px -1px 10px rgb(179, 31, 80);
+  transition: ease all 0.5s;
+  text-decoration: none;
+  outline: none;
+}
+
+.container .btn-crgVD:hover {
+  background-color: orange;
+}
+
+.container h1 {
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  border: none;
+}
+
+.container .div-Crear h4 {
+  background-color: #050505c9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 620px;
+  margin-left: 620px;
+  padding: 5px;
+  font-size: 20px;
+  color: azure;
+  text-decoration: none;
+  outline: none;
+  border: solid 1px;
+  border-radius: 30px;
+  box-shadow: 10px 1px 10px rgb(149, 107, 59),
+    -10px -1px 10px rgb(179, 31, 80);
+}
+
+.container .div-Crear h4:hover {
+  background-color: orange;
+}
+
+.container .container-selectors .selectors {
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border:none ;
+  padding: 5px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  box-shadow: 10px 1px 10px rgb(149, 107, 59),
+    -10px -1px 10px rgb(179, 31, 80);
+
+}
+
+.container .container-selectors .selectors:hover {
+  background-color: rgba(110, 64, 195, 0.609);
+  box-shadow: 10px 1px 10px rgb(149, 107, 59),
+    -10px -1px 10px rgb(179, 31, 80);
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 2px;
+  margin: 20px 20px;
+  box-shadow: 8px 1px 10px rgb(110, 109, 110), -8px -1px 10px rgb(110, 109, 110),
+    -15px -1px 30px rgb(136, 134, 136);
+  transition: ease all 0.5s;
+  text-decoration: none;
+}
+
+.tarjetas h2{
+  padding: 10px 10px;
+  color: white;
+  font-size: 40px;
+}
+
+.tarjetas h2 {
+  transition: ease all 0.5s;
+  animation: moverderecha 3s ease-in;
+}
+
+@keyframes moverderecha {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
